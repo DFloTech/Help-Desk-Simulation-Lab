@@ -22,7 +22,7 @@ User reported being unable to log into **PC01** workstation due to a forgotten p
 ## Steps Taken  
 
 1. Verified user identity via phone before proceeding and log in error.  
-   ![Screenshot Placeholder – User Verification](Screenshots/Ticket001_step0.PNG)
+   ![Screenshot Placeholder – User Verification](Help-Desk-Simulation-Lab/Screenshots/Ticket001_step0.PNG)
    ![Screenshot Placeholder – User Log in Error](Screenshots/Ticket001_step1.PNG)  
 
 2. Logged into **DC01** using RDP with `helpdesk1` account.  
