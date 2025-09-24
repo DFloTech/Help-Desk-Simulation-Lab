@@ -1,4 +1,4 @@
-# Ticket 001 – Password Reset
+# 🧾 Ticket 001 – Password Reset
 
 **Date Opened:** 2025-09-21  
 **Priority:** High  
@@ -22,25 +22,25 @@ User reported being unable to log into **PC01** workstation due to a forgotten p
 ## Steps Taken  
 
 1. Verified user identity via phone before proceeding and log in error.  
-   ![Screenshot Placeholder – User Verification](Screenshots/Ticket001_step0.png)
-   ![Screenshot Placeholder – User Log in Error](Screenshots/Ticket001_step1.png)  
+   ![Screenshot Placeholder – User Verification](Screenshots/Ticket001_step0.PNG)
+   ![Screenshot Placeholder – User Log in Error](Screenshots/Ticket001_step1.PNG)  
 
 2. Logged into **DC01** using RDP with `helpdesk1` account.  
-   ![Screenshot Placeholder – RDP to DC01](Screenshots/Ticket001_step2.png)  
+   ![Screenshot Placeholder – RDP to DC01](Screenshots/Ticket001_step2.PNG)  
 
 3. Opened **Active Directory Users and Computers (ADUC)**.  
-   ![Screenshot Placeholder – ADUC Console](Screenshots/Ticket001_step3.png)  
+   ![Screenshot Placeholder – ADUC Console](Screenshots/Ticket001_step3.PNG)  
 
 4. Located `ckershaw` account → **Right-click → Reset Password**.  
    - Temporary Password: `TempPass123!`  
    - Checked **User must change password at next logon**.  
-   ![Screenshot Placeholder – Password Reset in ADUC](Screenshots/Ticket001_step4.png)  
+   ![Screenshot Placeholder – Password Reset in ADUC](Screenshots/Ticket001_step4.PNG)  
 
 5. Confirmed user used temporary password and set a new password.  
-   ![Screenshot Placeholder – Unlock Account](Screenshots/Ticket001_step5.png)  
+   ![Screenshot Placeholder – Unlock Account](Screenshots/Ticket001_step5.PNG)  
 
 6. Confirmed user was able to log in at **PC01**.  
-   ![Screenshot Placeholder – User Login Success](Screenshots/Ticket001_step6.png)  
+   ![Screenshot Placeholder – User Login Success](Screenshots/Ticket001_step6.PNG)  
 
 ---
 
