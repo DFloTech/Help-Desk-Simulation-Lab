@@ -28,35 +28,35 @@ The account must:
 
 1. Logged into **DC01** with administrator credentials.  
 
-   ![Screenshot Placeholder – DC01 login](Screenshots/Ticket002_step1.PNG)  
+   ![Screenshot Placeholder – DC01 login](../Screenshots/Ticket002_step1.PNG)  
 
 2. Opened **Active Directory Users and Computers (ADUC)**.  
 
-   ![Screenshot Placeholder – ADUC open](Screenshots/Ticket002_step2.PNG)  
+   ![Screenshot Placeholder – ADUC open](../Screenshots/Ticket002_step2.PNG)  
 
 3. Navigated to the **Nursing OU** → Right-click → **New → User**.  
    - First Name: Mary  
    - Last Name: Poppins  
    - User Logon Name: mpoppins  
 
-   ![Screenshot Placeholder – Create User Wizard](Screenshots/Ticket002_step3.PNG)  
+   ![Screenshot Placeholder – Create User Wizard](../Screenshots/Ticket002_step3.PNG)  
 
 4. Set temporary password (`Welcome123!`) and checked **User must change password at next logon**.  
 
-   ![Screenshot Placeholder – Password Options](Screenshots/Ticket002_step4.PNG)  
+   ![Screenshot Placeholder – Password Options](../Screenshots/Ticket002_step4.PNG)  
 
 5. Assigned Mary to the **Nursing Staff security group**.  
 
-   ![Screenshot Placeholder – Group Membership](Screenshots/Ticket002_step5.PNG)  
+   ![Screenshot Placeholder – Group Membership](../Screenshots/Ticket002_step5.PNG)  
 
 6. Verified user object exists in AD and replicated properly.  
 
-   ![Screenshot Placeholder – User in ADUC](Screenshots/Ticket002_step6.PNG)  
+   ![Screenshot Placeholder – User in ADUC](../Screenshots/Ticket002_step6.PNG)  
 
 7. Logged into **PC01** with Mary’s credentials to confirm access.  
 
-   ![Screenshot Placeholder – Login with Temporary Credentials](Screenshots/Ticket002_step7.PNG)  
-   ![Screenshot Placeholder – Successful Login](Screenshots/Ticket002_step8.PNG)
+   ![Screenshot Placeholder – Login with Temporary Credentials](../Screenshots/Ticket002_step7.PNG)  
+   ![Screenshot Placeholder – Successful Login](../Screenshots/Ticket002_step8.PNG)
 
 ---
 

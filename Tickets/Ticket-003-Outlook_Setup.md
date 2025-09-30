@@ -23,7 +23,7 @@ User reported they were unable to log into Outlook on workstation **PC02** after
 ## Steps Taken  
 
 1. Verified user identity via phone before troubleshooting.  
-   ![Screenshot Placeholder – User Verification](Screenshots\Ticket003_step1.PNG)  
+   ![Screenshot Placeholder – User Verification](../Screenshots\Ticket003_step1.PNG)  
 
 2. Verified network connectivity by pinging the **mail server** from **PC01**.  
    - Command:  
@@ -33,29 +33,29 @@ User reported they were unable to log into Outlook on workstation **PC02** after
    - Simulated Exchange by pointing `ex01.lab.local` to **DC01** in DNS.  
    - Confirmed replies were received.  
 
-   ![Screenshot Placeholder – Ping Mail Server](Screenshots/Ticket003_step2.PNG)  
+   ![Screenshot Placeholder – Ping Mail Server](../Screenshots/Ticket003_step2.PNG)  
 
 3. Logged into **DC01** with `helpdesk1` and confirmed `mpoppins` account was active in ADUC.
 
-   ![Screenshot Placeholder – Verify AD Account](Screenshots/Ticket003_step3.PNG)  
+   ![Screenshot Placeholder – Verify AD Account](../Screenshots/Ticket003_step3.PNG)  
 
 4. (Simulation) Outlook not currently installed on PC02.  
    - In a real environment: Open **Control Panel → Mail (Microsoft Outlook)** or run `control mlcfg32.cpl`.  
    - Add a new Outlook profile for `mpoppins@lab.local`.  
    - Since Outlook is not installed in the lab, this step is documented for process demonstration only.
 
-   ![Screenshot Placeholder – Outlook Profile](Screenshots/Ticket003_step4.PNG)    
+   ![Screenshot Placeholder – Outlook Profile](../Screenshots/Ticket003_step4.PNG)    
 
 5. On **PC02**, opened **Mail Setup – Outlook** (normally found in Control Panel → Mail) and added a new Outlook profile for `mpoppins@lab.local`.  
    - (Simulation: Outlook not installed in lab, step documented for process demonstration.)  
 
-   ![Screenshot Placeholder – Outlook Profile Setup](Screenshots/Ticket003_step5.PNG)  
+   ![Screenshot Placeholder – Outlook Profile Setup](../Screenshots/Ticket003_step5.PNG)  
 
 6. (Simulation) Launched Outlook and confirmed mailbox initialization completed without errors.  
    - In production: User would log in, mailbox would sync, and a test message could be sent/received.  
    - In the lab: Step documented conceptually since Outlook isn’t installed.  
 
-   ![Screenshot Placeholder – Outlook Success](Screenshots/Ticket003_step6.PNG)  
+   ![Screenshot Placeholder – Outlook Success](../Screenshots/Ticket003_step6.PNG)  
  
 
 ---
