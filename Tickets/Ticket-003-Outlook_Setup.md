@@ -23,7 +23,7 @@ User reported they were unable to log into Outlook on workstation **PC02** after
 ## Steps Taken  
 
 1. Verified user identity via phone before troubleshooting.  
-   ![Screenshot Placeholder – User Verification](../Screenshots\Ticket003_step1.PNG)  
+   ![Screenshot Placeholder – User Verification](../Screenshots/Ticket003_step1.PNG)  
 
 2. Verified network connectivity by pinging the **mail server** from **PC01**.  
    - Command:  
